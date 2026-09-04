@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="나만의 개인 홈페이지">
+  <title>MY SPACE ♡</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- 배경 장식 -->
+  <div class="bg-shape shape-1"></div>
+  <div class="bg-shape shape-2"></div>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <a href="#home" class="logo">MY<span>♡</span>SPACE</a>
+
+    <nav class="nav">
+      <a href="#home">HOME</a>
+      <a href="#profile">PROFILE</a>
+      <a href="#calendar">CALENDAR</a>
+      <a href="#notes">NOTES</a>
+      <a href="#tweets">TWEETS</a>
+      <a href="#music">MUSIC</a>
+    </nav>
+
+    <button class="menu-button" id="menuButton">☰</button>
+  </header>
+
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero section" id="home">
+
+      <div class="hero-text">
+        <p class="eyebrow">WELCOME TO MY PERSONAL SPACE ♡</p>
+
+        <h1>
+          Hello,<br>
+          I'm <span>YOUR NAME</span>.
+        </h1>
+
+        <p class="hero-description">
+          나의 이야기와 음악, 생각 그리고<br>
+          좋아하는 것들을 기록하는 작은 공간입니다.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#profile" class="button primary">ABOUT ME →</a>
+          <a href="#tweets" class="button secondary">MY POSTS</a>
+        </div>
+      </div>
+
+      <div class="hero-profile">
+        <div class="profile-card">
+          <div class="profile-image">
+            <span>♡</span>
+          </div>
+
+          <div class="profile-card-info">
+            <h2>YOUR NAME</h2>
+            <p>@your_username</p>
+          </div>
+
+          <div class="profile-stats">
+            <div>
+              <strong id="postCount">0</strong>
+              <span>Posts</span>
+            </div>
+            <div>
+              <strong id="noteCount">0</strong>
+              <span>Notes</span>
+            </div>
+            <div>
+              <strong>∞</strong>
+              <span>Dreams</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- PROFILE -->
+    <section class="section" id="profile">
+
+      <div class="section-heading">
+        <div>
+          <p class="section-number">01 / PROFILE</p>
+          <h2>About <span>Me.</span></h2>
+        </div>
+
+        <p>
+          조금 더 자세히 알아가는<br>
+          나의 작은 프로필
+        </p>
+      </div>
+
+      <div class="profile-grid">
+
+        <article class="about-card black-card">
+          <div class="card-label">INTRODUCTION</div>
+
+          <h3>
+            안녕하세요.<br>
+            저는 <span>YOUR NAME</span>입니다.
+          </h3>
+
+          <p>
+            새로운 것을 배우고, 음악을 듣고,
+            좋은 사람들과 이야기하는 것을 좋아합니다.
+            이 홈페이지에서는 제가 좋아하는 것들과
+            일상에서 생각하는 것들을 자유롭게 기록합니다.
+          </p>
+
+          <div class="signature">YOUR NAME ♡</div>
+        </article>
+
+
+        <article class="info-card">
+          <div class="card-label">MY PROFILE</div>
+
+          <div class="info-row">
+            <span>NAME</span>
+            <strong>YOUR NAME</strong>
+          </div>
+
+          <div class="info-row">
+            <span>BIRTHDAY</span>
+            <strong>00.00.00</strong>
+          </div>
+
+          <div class="info-row">
+            <span>LOCATION</span>
+            <strong>SEOUL, KOREA</strong>
+          </div>
+
+          <div class="info-row">
+            <span>MBTI</span>
+            <strong>INFP</strong>
+          </div>
+
+          <div class="info-row">
+            <span>EMAIL</span>
+            <strong>hello@example.com</strong>
+          </div>
+        </article>
+
+      </div>
+
+
+      <!-- SKILLS -->
+      <div class="skills-area">
+        <div class="card-label">MY TALENTS</div>
+
+        <div class="skills">
+
+          <div class="skill">
+            <div class="skill-top">
+              <span>🎵 MUSIC</span>
+              <strong>90%</strong>
+            </div>
+            <div class="skill-bar">
+              <span style="width:90%"></span>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-top">
+              <span>💻 CODING</span>
+              <strong>80%</strong>
+            </div>
+            <div class="skill-bar">
+              <span style="width:80%"></span>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-top">
+              <span>🎨 DESIGN</span>
+              <strong>75%</strong>
+            </div>
+            <div class="skill-bar">
+              <span style="width:75%"></span>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-top">
+              <span>📷 PHOTO</span>
+              <strong>85%</strong>
+            </div>
+            <div class="skill-bar">
+              <span style="width:85%"></span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- CALENDAR -->
+    <section class="section" id="calendar">
+
+      <div class="section-heading">
+        <div>
+          <p class="section-number">02 / CALENDAR</p>
+          <h2>My <span>Calendar.</span></h2>
+        </div>
+
+        <p>오늘의 일정과<br>기억하고 싶은 날들</p>
+      </div>
+
+      <div class="calendar-layout">
+
+        <div class="calendar-card">
+
+          <div class="calendar-header">
+            <button id="prevMonth">←</button>
+
+            <h3 id="monthTitle">September 2026</h3>
+
+            <button id="nextMonth">→</button>
+          </div>
+
+          <div class="weekdays">
+            <span>SUN</span>
+            <span>MON</span>
+            <span>TUE</span>
+            <span>WED</span>
+            <span>THU</span>
+            <span>FRI</span>
+            <span>SAT</span>
+          </div>
+
+          <div class="calendar-days" id="calendarDays"></div>
+
+        </div>
+
+
+        <div class="event-card">
+
+          <div class="card-label">ADD EVENT</div>
+
+          <h3>새로운 일정 추가</h3>
+
+          <label for="eventDate">날짜</label>
+          <input type="date" id="eventDate">
+
+          <label for="eventText">일정</label>
+          <input type="text" id="eventText" placeholder="예: 친구 만나기">
+
+          <button class="button primary full" id="addEvent">
+            일정 추가 +
+          </button>
+
+          <div class="event-list" id="eventList"></div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- NOTES -->
+    <section class="section" id="notes">
+
+      <div class="section-heading">
+        <div>
+          <p class="section-number">03 / NOTES</p>
+          <h2>My <span>Notes.</span></h2>
+        </div>
+
+        <p>떠오르는 생각들을<br>자유롭게 기록하기</p>
+      </div>
+
+
+      <div class="note-editor">
+
+        <input
+          type="text"
+          id="noteTitle"
+          placeholder="노트 제목"
+        >
+
+        <textarea
+          id="noteContent"
+          placeholder="무슨 생각을 하고 있나요?"
+        ></textarea>
+
+        <button class="button primary" id="addNote">
+          SAVE NOTE +
+        </button>
+
+      </div>
+
+
+      <div class="notes-grid" id="notesGrid"></div>
+
+    </section>
+
+
+    <!-- TWEETS -->
+    <section class="section" id="tweets">
+
+      <div class="section-heading">
+        <div>
+          <p class="section-number">04 / TWEETS</p>
+          <h2>My <span>Thoughts.</span></h2>
+        </div>
+
+        <p>나의 생각과 일상을<br>짧게 남겨보세요</p>
+      </div>
+
+
+      <div class="tweet-composer">
+
+        <div class="mini-avatar">♡</div>
+
+        <div class="tweet-input-area">
+
+          <textarea
+            id="tweetText"
+            maxlength="280"
+            placeholder="What's happening?"
+          ></textarea>
+
+          <div class="tweet-bottom">
+            <span id="tweetCounter">0 / 280</span>
+
+            <button class="button primary" id="addTweet">
+              POST
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="tweets-list" id="tweetsList"></div>
+
+    </section>
+
+
+    <!-- MUSIC -->
+    <section class="section" id="music">
+
+      <div class="section-heading">
+        <div>
+          <p class="section-number">05 / MUSIC</p>
+          <h2>My <span>Music.</span></h2>
+        </div>
+
+        <p>좋아하는 YouTube 음악과<br>영상을 모아두는 공간</p>
+      </div>
+
+
+      <div class="music-add">
+
+        <div>
+          <div class="card-label">YOUTUBE PLAYER</div>
+          <h3>YouTube 음악 추가</h3>
+          <p>
+            YouTube 영상 주소를 입력하면<br>
+            나만의 음악 리스트에 추가할 수 있습니다.
+          </p>
+        </div>
+
+        <div class="youtube-form">
+          <input
+            type="text"
+            id="youtubeUrl"
+            placeholder="https://www.youtube.com/watch?v=..."
+          >
+
+          <input
+            type="text"
+            id="youtubeTitle"
+            placeholder="음악 제목"
+          >
+
+          <button class="button primary" id="addMusic">
+            ADD MUSIC +
+          </button>
+        </div>
+
+      </div>
+
+
+      <div class="music-grid" id="musicGrid"></div>
+
+    </section>
+
+
+    <!-- SOCIAL -->
+    <section class="social-section">
+
+      <p class="section-number">06 / FIND ME</p>
+
+      <h2>Let's stay<br><span>connected.</span></h2>
+
+      <div class="social-links">
+        <a href="#" target="_blank">INSTAGRAM ↗</a>
+        <a href="#" target="_blank">YOUTUBE ↗</a>
+        <a href="#" target="_blank">GITHUB ↗</a>
+        <a href="#" target="_blank">X / TWITTER ↗</a>
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer>
+    <div>
+      <strong>MY♡SPACE</strong>
+      <span>Made with love.</span>
+    </div>
+
+    <p>© 2026 YOUR NAME. All rights reserved.</p>
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
